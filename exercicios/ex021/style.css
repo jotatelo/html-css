@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+    body{
+        background-color: aquamarine;
+        main{
+            border-radius: 30px;
+            padding: 20px;
+            margin: auto;
+            background-color: white;
+            width: 500px;
+            p{
+                text-align: justify;
+                text-indent:50px;
+            }
+            h1{
+                
+                color: brown;
+            }
+            h1#principal{
+                background-color: aquamarine;
+                color: darkgoldenrod;
+                text-align: center;
+            }
+            .basico{
+                color: rgb(177, 255, 61);
+                
+            }
+            .intermediario{
+                color: rgb(245, 255, 61);
+            }
+            .avancado{
+                color: rgb(255, 61, 61);
+
+            }
+
+        }
+    }
+}

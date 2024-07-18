@@ -1,0 +1,17 @@
+*{
+    body{
+        background-color: rgba(199, 171, 135, 0.493);
+        main{
+            padding: 15px;
+            background-color: white;
+            margin: auto;
+            width: 470px;
+            font-family: arial ;  
+            text-align: justify;  
+            h1{
+                color: darkorange;
+            }
+            
+        }
+    }
+}

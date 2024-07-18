@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&family=Work+Sans:ital,wght@1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    body{
+        font-family: "Work Sans", sans-serif; font-optical-sizing: auto;
+        background-color: aqua;
+        main{
+            background-color: white;
+            text-align: justify;
+            width: 500px;
+            padding: 10px;
+            margin: auto;
+            h1{
+                font-family: 'dancing script', Times, serif;
+                text-align: center;
+                font-size: 4em;
+            }
+        }
+    }
+}

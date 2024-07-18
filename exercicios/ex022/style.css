@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: rgb(194, 86, 86);
+    text-decoration: none;
+
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+a:active{
+    color:  yellowgreen;
+}

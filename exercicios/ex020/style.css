@@ -1,0 +1,27 @@
+*{
+    body{
+        background-image: linear-gradient(to left, yellow, red);
+        font: normal 17px arial, verdana, serif;
+        text-align: left;
+        main{
+            
+            background-color: white;
+            width: 550px;
+            margin: auto;
+            padding: 12px;
+            border-radius: 15px;
+            box-shadow: 10px 10px 10px rgba(146, 126, 36, 0.452);
+            h1{
+                text-align: center;
+            }
+            h2{
+                text-align: right;
+                color: blue;
+            }
+            p{
+                text-align: justify;
+                text-indent: 40px; /*Espaço em branco no início do parágrafo*/
+            }
+        }
+    }
+}

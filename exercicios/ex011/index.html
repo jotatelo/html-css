@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando midias</title>
+</head>
+<body>
+    <h1>
+        Imagens Dinâmicas
+    </h1>
+    <p>
+        Abre esse site em vários dispositivos ou mude o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="Imagem grande">
+    </picture>
+    <h1>
+        Reproduzindo áudios
+    </h1>
+    <h2>Nesse momento aprenderemos como colocar um áudio no site</h2>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Diz-me-agora.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>
